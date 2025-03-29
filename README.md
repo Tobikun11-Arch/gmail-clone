@@ -1,1 +1,1 @@
-## Stage Branch
+## This is the staging branch. Please open a pull request here if you modify the code and want to push it to deployment.
