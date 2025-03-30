@@ -14,10 +14,10 @@ export function DropdownMenuRadioGroupDemo() {
   
   return (
     <DropdownMenu onOpenChange={setOpen}>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger asChild className="relative">
           {isOpen ? <ChevronUp /> : <ChevronDown />}
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-52 mr-4 text-blue-700 mt-2">
+      <DropdownMenuContent className="w-52 text-blue-700 mt-2 absolute -right-4">
         <DropdownMenuLabel>For my personal use</DropdownMenuLabel>
         <DropdownMenuLabel>For my work or business</DropdownMenuLabel>
       </DropdownMenuContent>
